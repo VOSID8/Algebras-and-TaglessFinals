@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"196","parents":[]},"eventTime":1711565549665,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Projects/Algebras-and-TaglessFinals/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"196","parents":[]},"eventTime":1711565549676,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Projects/Algebras-and-TaglessFinals/#root/Compile"},"errors":0,"warnings":0,"time":11}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"197","parents":[]},"eventTime":1711565549685,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Projects/Algebras-and-TaglessFinals/#root/Test"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Projects\Algebras-and-TaglessFinals\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Projects\\Algebras-and-TaglessFinals\\target\\scala-2.12\\test-classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Projects/Algebras-and-TaglessFinals/src/test/scala/example/HelloSpec.scala"},"buildTarget":{"uri":"file:/C:/Projects/Algebras-and-TaglessFinals/#root/Test"},"diagnostics":[{"range":{"start":{"line":6,"character":4},"end":{"line":6,"character":4}},"severity":1,"source":"sbt","message":"not found: value Hello","relatedInformation":[]}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Algebras-and-TaglessFinals\src\test\scala\example\HelloSpec.scala:7:5: not found: value Hello[0m
+[0m[[0m[31merror[0m] [0m[0m    Hello.greeting shouldEqual "hello"[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Projects\\Algebras-and-TaglessFinals\\src\\test\\scala\\example\\HelloSpec.scala:7:5: not found: value Hello"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"    Hello.greeting shouldEqual \"hello\""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"    ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"197","parents":[]},"eventTime":1711565549859,"message":"Compiling root-test (15%)","total":26,"progress":15,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Projects/Algebras-and-TaglessFinals/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskProgress, {"taskId":{"id":"197","parents":[]},"eventTime":1711565549859,"message":"Compiling root-test (15%)","total":26,"progress":15,"dataKind":"compile-progress","data":{"target":{"uri":"file:/C:/Projects/Algebras-and-TaglessFinals/#root/Test"}}})[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"one error found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Projects/Algebras-and-TaglessFinals/src/test/scala/example/HelloSpec.scala"},"buildTarget":{"uri":"file:/C:/Projects/Algebras-and-TaglessFinals/#root/Test"},"diagnostics":[{"range":{"start":{"line":6,"character":4},"end":{"line":6,"character":4}},"severity":1,"source":"sbt","message":"not found: value Hello","relatedInformation":[]}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"197","parents":[]},"eventTime":1711565549862,"message":"Compiled root-test","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Projects/Algebras-and-TaglessFinals/#root/Test"},"errors":1,"warnings":0,"time":177}})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId None: {"code":-32603,"message":"(Test / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Test / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 28-Mar-2024, 12:22:29 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
