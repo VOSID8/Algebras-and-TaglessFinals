@@ -621,3 +621,428 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.lang.Thread.run(Thread.java:834)
 
+2024.03.28 00:23:30 INFO  Started: Metals version 1.2.2 in folders 'C:\Projects\Algebras-and-TaglessFinals' for client Visual Studio Code 1.87.2.
+00:23:34.115 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+00:23:34.121 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+00:23:34.122 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+00:23:34.130 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+00:23:34.131 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+00:23:34.131 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+00:23:34.131 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+00:23:34.131 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a ...
+00:23:34.132 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Siddh/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+00:23:34.141 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+00:23:34.144 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+00:23:34.144 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+00:23:34.144 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+00:23:34.144 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+00:23:34.145 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+00:23:34.155 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+00:23:34.156 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+00:23:34.158 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+00:23:34.159 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+00:23:34.159 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+00:23:34.384 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Projects\Algebras-and-TaglessFinals\.metals\metals (H2 2.2)
+00:23:34.384 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+00:23:34.384 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+00:23:34.386 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+00:23:34.386 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+00:23:34.395 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+00:23:34.397 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+00:23:34.398 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+00:23:34.414 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+00:23:34.422 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+00:23:34.434 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+00:23:34.434 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+00:23:34.434 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+00:23:34.434 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+00:23:34.434 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+00:23:34.436 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+00:23:34.436 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+00:23:34.436 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+00:23:34.436 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+00:23:34.436 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+00:23:34.467 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.051s)
+00:23:34.471 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+00:23:34.482 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+00:23:34.489 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+00:23:34.512 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 27 of 100M
+2024.03.28 00:23:35 WARN  Build server is not auto-connectable.
+2024.03.28 00:23:48 INFO  no build target found for C:\Projects\Algebras-and-TaglessFinals\src\main\ADTs.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.03.28 00:23:52 INFO  time: code lens generation in 16s
+2024.03.28 00:23:52 INFO  time: code lens generation in 13s
+2024.03.28 00:23:52 INFO  time: code lens generation in 16s
+2024.03.28 00:24:42 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:24:42 WARN  Could not find semantic tokens for: file:///C:/Projects/Algebras-and-TaglessFinals/src/main/TaglessFinal.scala
+2024.03.28 00:26:05 WARN  Could not find semantic tokens for: file:///C:/Projects/Algebras-and-TaglessFinals/src/main/TaglessFinal.scala
+2024.03.28 00:26:06 WARN  Could not find semantic tokens for: file:///C:/Projects/Algebras-and-TaglessFinals/src/main/TaglessFinal.scala
+2024.03.28 00:26:06 WARN  Could not find semantic tokens for: file:///C:/Projects/Algebras-and-TaglessFinals/src/main/TaglessFinal.scala
+2024.03.28 00:26:07 WARN  Could not find semantic tokens for: file:///C:/Projects/Algebras-and-TaglessFinals/src/main/TaglessFinal.scala
+2024.03.28 00:26:07 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:26:07 WARN  Could not find semantic tokens for: file:///C:/Projects/Algebras-and-TaglessFinals/src/main/TaglessFinal.scala
+2024.03.28 00:26:10 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:26:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+Mar 28, 2024 12:26:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+Mar 28, 2024 12:26:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+Mar 28, 2024 12:26:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+Mar 28, 2024 12:26:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+2024.03.28 00:26:14 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:26:28 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:26:30 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:26:34 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:26:39 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:26:41 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:27:06 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:27:10 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:06 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:08 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:16 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:19 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:21 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:26 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:29 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:32 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:30:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 386
+2024.03.28 00:30:36 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:53 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:54 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:30:56 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:31:00 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:31:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 484
+2024.03.28 00:31:01 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:31:04 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:31:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 509
+2024.03.28 00:31:07 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:31:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 523
+2024.03.28 00:31:12 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:31:15 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:31:21 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:31:23 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:31:25 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:31:29 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:31:30 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:31:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 623
+Mar 28, 2024 12:32:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 635
+2024.03.28 00:32:23 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:32:36 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:32:41 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:32:49 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:32:51 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:32:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 722
+2024.03.28 00:32:54 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:32:56 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:32:58 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:05 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:06 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:13 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:15 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:19 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:22 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:24 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:29 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:31 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:36 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:37 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:33:39 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:34:18 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:34:19 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:01 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:03 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:15 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:19 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:21 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:35 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:37 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:45 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:47 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:50 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:35:53 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:36:42 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:36:44 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:36:57 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:36:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1191
+Mar 28, 2024 12:36:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1193
+2024.03.28 00:37:01 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:37:03 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:37:17 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:37:20 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:37:24 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:37:54 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:46:38 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:46:49 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:01 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:07 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:09 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:12 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:14 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:18 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:22 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1452
+2024.03.28 00:47:28 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:30 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:32 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:38 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:40 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:43 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:45 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:46 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:47:56 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:48:05 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:48:07 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:48:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:48:13 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:48:20 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:48:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1630
+Mar 28, 2024 12:48:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1631
+2024.03.28 00:48:26 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:48:30 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:48:32 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:50:35 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:50:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1743
+2024.03.28 00:50:43 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:51:02 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:51:04 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:51:06 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:51:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1807
+2024.03.28 00:51:10 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:51:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:51:40 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:51:49 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:51:50 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:51:51 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:52:09 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:52:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:52:16 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:52:24 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:52:28 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:52:43 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:06 ERROR Failed to tokenize input for semantic tokens for C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+scala.meta.tokenizers.TokenizeException: <input>:49: error: unclosed character literal
+        case class Not(expr: Expr) extends Expr("bool")''
+                                                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2024.03.28 00:53:08 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:13 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:16 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:21 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:36 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:40 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:42 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:45 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:53:47 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:54:02 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:54:06 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:54:10 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:54:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:54:13 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:54:14 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:54:17 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:54:19 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 12:55:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2276
+Mar 28, 2024 12:55:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2277
+2024.03.28 00:55:44 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:55:45 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:55:48 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:55:50 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:55:53 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:55:56 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:55:59 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:57:38 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:57:41 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:57:42 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:58:26 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:58:41 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:58:44 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:58:51 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:58:53 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:58:56 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:58:59 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:13 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:18 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:20 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:22 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:25 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:28 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:34 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:37 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 00:59:40 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:00:40 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:00:46 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:00:49 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:01:12 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:01:15 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:01:17 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:01:22 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:01:23 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:01:28 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:01:31 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:01:38 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:01:50 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:02:06 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:02:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:02:28 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:05:09 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+Mar 28, 2024 1:05:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2966
+2024.03.28 01:05:16 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:05:25 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:05:30 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:05:34 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\TaglessFinal.scala
+2024.03.28 01:22:59 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\generics.scala
+2024.03.28 01:23:00 WARN  Could not find semantic tokens for: file:///C:/Projects/Algebras-and-TaglessFinals/src/main/scala/generics.scala
+2024.03.28 01:23:14 WARN  Could not find semantic tokens for: file:///C:/Projects/Algebras-and-TaglessFinals/src/main/scala/generics.scala
+2024.03.28 10:56:33 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:56:49 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:10 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:12 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:13 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:15 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:16 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:18 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:20 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:22 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:26 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:29 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:30 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:36 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:38 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:41 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:48 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:49 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:51 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:57:56 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:58:00 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:58:24 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:58:27 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:58:32 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:58:34 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:58:35 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:59:22 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:59:30 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+Mar 28, 2024 10:59:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3422
+2024.03.28 10:59:39 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:59:41 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 10:59:47 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:00:00 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:02 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:05 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:12 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:20 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:24 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:25 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:29 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:31 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:45 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:01:53 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+Mar 28, 2024 11:01:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3688
+2024.03.28 11:01:57 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:02:00 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:02:41 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:02:53 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:02:55 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+Mar 28, 2024 11:03:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3799
+2024.03.28 11:03:04 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:03:05 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:03:11 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:03:13 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:03:17 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:03:19 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:03:27 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:03:36 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:03:44 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:06:36 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:06:39 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:06:41 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:09:27 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:09:32 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:10:12 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+Mar 28, 2024 11:10:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4097
+2024.03.28 11:10:18 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:10:22 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:10:23 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:10:26 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:17 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:23 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:26 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:30 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:34 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:39 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:46 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:49 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:53 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:11:55 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:12:16 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:12:27 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:12:29 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:12:41 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:12:43 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:12:54 WARN  no build target for: C:\Projects\Algebras-and-TaglessFinals\src\main\scala\TaglessFinal.scala
+2024.03.28 11:13:18 INFO  Shutting down server
+2024.03.28 11:13:18 INFO  shutting down Metals
+2024.03.28 11:13:18 INFO  Exiting server
+2024.03.28 11:13:18 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+

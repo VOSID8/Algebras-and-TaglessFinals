@@ -1,4 +1,4 @@
-import scala.quoted.Expr
+error id: file:///C:/Projects/Algebras-and-TaglessFinals/src/main/scala/TaglessFinal.scala:[4175..4176) in Input.VirtualFile("file:///C:/Projects/Algebras-and-TaglessFinals/src/main/scala/TaglessFinal.scala", "import scala.quoted.Expr
 
 object TaglessFinal {
 
@@ -68,8 +68,51 @@ object TaglessFinal {
         }
         //this was tagging
     }
+    //but we still dont have type safety and errors at runtime
+    object Tagless {
+        trait Expr[A]
+        case class B(boolean: Boolean) extends Expr[Boolean]
+        case class Or(left: Expr[Boolean], right: Expr[Boolean]) extends Expr[Boolean]
+        case class And(left: Expr[Boolean], right: Expr[Boolean]) extends Expr[Boolean]
+        case class Not(expr: Expr[Boolean]) extends Expr[Boolean]
+        case class I(int: Int) extends Expr[Int]
+        case class Sum(left: Expr[Int], right: Expr[Int]) extends Expr[Int]
+        //we are using type parameters to make sure that the type is correct
+        //type arguments are the types that we pass to the type parameters
 
-
+        def eval[A](expr: Expr[A]): A = expr match {
+            case B(b) => b
+            case Or(left, right) => eval(left) || eval(right)
+            case And(left, right) => eval(left) && eval(right)
+            case Not(expr) => !eval(expr)
+            case I(i) => i
+            case Sum(left, right) => eval(left) + eval(right)
+        }
+        //we are returning the correct type for the correct expression
+    }
+    def demoTagless(): Unit = {
+        import Tagless._
+        println(eval(Or(B(true), And(B(false), B(true)))))
+        println(eval(Sum(I(2), I(3))))
+        //correctness is proved at compile time
 
     }
+    //this was taglesss solution
+    //using generics to make sure that the type is correct
+    object TaglessFinal{
+        trait Expr[A]{
+            val value: A
+        }
+
+        def 
+    }
 }
+}
+")
+file:///C:/Projects/Algebras-and-TaglessFinals/src/main/scala/TaglessFinal.scala
+file:///C:/Projects/Algebras-and-TaglessFinals/src/main/scala/TaglessFinal.scala:108: error: expected identifier; obtained rbrace
+    }
+    ^
+#### Short summary: 
+
+expected identifier; obtained rbrace
